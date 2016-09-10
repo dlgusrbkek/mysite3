@@ -18,6 +18,7 @@ public class FileUploadController {
 	
 	@RequestMapping( "/form" )
 	public String form(){
+		System.out.println( "hello jenkins");
 		return "fileupload/form";
 	}
 	
